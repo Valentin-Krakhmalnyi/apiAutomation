@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" errors="0" time="1.924">
-  <testsuite name="USER UPDATE - /user/updateMe" errors="0" failures="0" skipped="0" timestamp="2025-05-05T00:33:53" time="1.844" tests="2">
-    <testcase classname="USER UPDATE - /user/updateMe should update the user name and email" name="USER UPDATE - /user/updateMe should update the user name and email" time="0.094">
-    </testcase>
-    <testcase classname="USER UPDATE - /user/updateMe should update the user photo" name="USER UPDATE - /user/updateMe should update the user photo" time="0.066">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="2.218">
+  <testsuite name="CREATE TOUR" errors="0" failures="0" skipped="0" timestamp="2025-05-11T20:13:28" time="2.118" tests="1">
+    <testcase classname="CREATE TOUR create tour" name="CREATE TOUR create tour" time="1.343">
     </testcase>
   </testsuite>
 </testsuites>
