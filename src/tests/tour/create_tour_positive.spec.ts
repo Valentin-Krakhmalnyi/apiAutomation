@@ -1,4 +1,5 @@
 import { getUser, signUp } from "../../../helper/user"
+import * as supertest from "supertest"
 let cookie: string;
 
 describe('CREATE TOUR',() => {
