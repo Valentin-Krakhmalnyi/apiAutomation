@@ -1,4 +1,6 @@
 import { getUser, signUp } from "../../../helper/user"
+import * as supertest from "supertest";
+const request = supertest("http://localhost:8001/api/v1");
 let cookie: string;
 
 describe('CREATE TOUR',() => {
