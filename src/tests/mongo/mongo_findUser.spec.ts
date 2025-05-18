@@ -1,4 +1,4 @@
-import { getUser, signUp,} from "../../../helper/user"
+import { getUser, signUp} from "../../../helper/user"
 const { MongoClient, Db, ObjectId } = require("mongodb")
 const dotenv = require("dotenv")
 dotenv.config()
