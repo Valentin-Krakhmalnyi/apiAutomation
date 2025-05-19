@@ -1,0 +1,27 @@
+name: Run Jest Tests on Multiple Node Versions
+
+on:
+  push:
+    branches: [ master, develop ]
+
+jobs:
+  jest-matrix:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18, 20]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Jest tests
+        run: npx jest

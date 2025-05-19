@@ -1,0 +1,23 @@
+name: Run Jest Tests Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  daily-jest-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js (v18)
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Jest tests
+        run: npx jest
