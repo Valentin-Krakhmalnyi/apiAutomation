@@ -1,0 +1,23 @@
+name: Run Jest Tests on macOS
+
+on:
+  push:
+    branches: [ master, develop ]
+
+jobs:
+  macos-jest-tests:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Jest tests
+        run: npx jest
