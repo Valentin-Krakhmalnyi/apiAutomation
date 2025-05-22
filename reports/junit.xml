@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="6" failures="0" errors="0" time="1.758">
-  <testsuite name="POSTS" errors="0" failures="0" skipped="0" timestamp="2025-05-18T16:22:58" time="1.658" tests="6">
-    <testcase classname="POSTS get request" name="POSTS get request" time="0.166">
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="1.769">
+  <testsuite name="POSTS" errors="0" failures="0" skipped="0" timestamp="2025-05-19T00:49:43" time="1.687" tests="6">
+    <testcase classname="POSTS get request" name="POSTS get request" time="0.202">
     </testcase>
-    <testcase classname="POSTS POST request" name="POSTS POST request" time="0.132">
+    <testcase classname="POSTS POST request" name="POSTS POST request" time="0.12">
     </testcase>
-    <testcase classname="POSTS PATCH request with title version 1" name="POSTS PATCH request with title version 1" time="0.238">
+    <testcase classname="POSTS PATCH request with title version 1" name="POSTS PATCH request with title version 1" time="0.214">
     </testcase>
-    <testcase classname="POSTS PATCH request with title version 2" name="POSTS PATCH request with title version 2" time="0.202">
+    <testcase classname="POSTS PATCH request with title version 2" name="POSTS PATCH request with title version 2" time="0.464">
     </testcase>
-    <testcase classname="POSTS PATCH request with title version 3" name="POSTS PATCH request with title version 3" time="0.134">
+    <testcase classname="POSTS PATCH request with title version 3" name="POSTS PATCH request with title version 3" time="0.158">
     </testcase>
-    <testcase classname="POSTS DELETE request" name="POSTS DELETE request" time="0.109">
+    <testcase classname="POSTS DELETE request" name="POSTS DELETE request" time="0.13">
     </testcase>
   </testsuite>
 </testsuites>
